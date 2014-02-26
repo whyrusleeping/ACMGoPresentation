@@ -10,11 +10,13 @@ http://jero.my
 * Go
 
 - Go is a programming language developed at Google by Robert Griesemer, Rob Pike, And Ken Thompson.
-- It is garbage collected, has great type safety, and has concurrency built in.
+- It is garbage collected, compiled, has great type safety, and has concurrency built in.
 - It has duck typing, type inference, and is statically linked.
 - Sadly, it does not have generic types, but dont let that stop you!
 
 .image gophercolor.png 200 200
+
+Also, Go's mascot is a gopher, how cool is that?
 
 * What does Go look like?
 
@@ -26,7 +28,7 @@ Go has very strict syntax:
 - No semicolons! (kinda)
 - Unused variables are errors
 
-* Variables
+* Variables and Functions
 
 .play second.go
 
@@ -47,7 +49,7 @@ Channels are awesome.
 .play channel.go
 
 * Polymorphism?
-Go uses duck typing, if youve used python, you should feel at home.
+Go uses duck typing, if you've used python, you should feel at home.
 
 .play duck.go
 
@@ -58,7 +60,8 @@ Go has a very robust set of tools built into the language, these include:
 - Documentation Generator (godoc)
 - Profiler (go tool pprof)
 - Package Management (go get)
-- And many more...
+
+.link http://godoc.org/code.google.com/p/go.tools And many more...
 
 * Standard Library
 Go's standard library is very small, but contains a very large amount of useful packages
