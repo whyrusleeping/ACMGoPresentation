@@ -1,0 +1,19 @@
+Golang
+A brief introduction
+26 Feb 2014
+
+Jeromy Johnson
+Chair, WSU ACM
+me@jero.my
+http://jero.my
+
+* Go
+
+- Go is a programming language developed at Google by Robert Griesemer, Rob Pike, And Ken Thompson.
+- It is garbage collected, has great type safety, and has concurrency built in.
+- It has duck typing, type inference, and is statically linked.
+- Sadly, it does not have generic types, but dont let that stop you!
+
+* What does Go look like?
+
+.play first.go
