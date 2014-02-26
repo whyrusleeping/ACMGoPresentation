@@ -14,6 +14,8 @@ http://jero.my
 - It has duck typing, type inference, and is statically linked.
 - Sadly, it does not have generic types, but dont let that stop you!
 
+.image gophercolor.png 200 200
+
 * What does Go look like?
 
 .play first.go
