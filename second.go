@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func SomeFunction(cats int, name string) (int, int) {
+func CatChecker(cats int, name string) (int, int) {
 	if cats > 5 {
 		fmt.Printf("%s has a lot of cats!\n", name)
 		return -1, 4
@@ -12,6 +12,6 @@ func SomeFunction(cats int, name string) (int, int) {
 }
 
 func main() {
-	a,b := SomeFunction(17, "Jeromy")
+	a,b := CatChecker(17, "Jeromy")
 	fmt.Printf("Function returned %d and %d.\n", a, b)
 }
