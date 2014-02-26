@@ -49,8 +49,33 @@ Go uses duck typing, if youve used python, you should feel at home.
 
 .play duck.go
 
+* Tools
+Go has a very robust set of tools built into the language, these include:
+- Compiler (obviously) (go build)
+- Formatter (go fmt)
+- Documentation Generator (godoc)
+- Profiler (go tool pprof)
+- Package Management (go get)
+- And many more...
+
+* Standard Library
+Go's standard library is very small, but contains a very large amount of useful packages
+
+.link http://golang.org/pkg/crypto Crypto Libraries
+
+.link http://golang.org/pkg/net/http Http Tools
+
+.link http://golang.org/pkg/compress Compression
+
+.link http://golang.org/pkg/encoding Encoding (json, hex, base64, xml)
+
+.link http://godoc.org/code.google.com/p/go.tools/present This Slideshow Tool!
+.link http://golang.org/pkg/ And a good deal more...
+
 * In Closing...
 To learn more, check out:
+
+.link http://tour.golang.org Take the tour
 
 .link http://golang.org golang.org
 
@@ -58,3 +83,6 @@ To try things out yourself:
 
 .link http://play.golang.org The Go Playground
 
+To Install it
+
+.link http://golang.org/doc/install Installation Guide
