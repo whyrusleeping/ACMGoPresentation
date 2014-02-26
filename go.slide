@@ -3,7 +3,7 @@ A brief introduction
 26 Feb 2014
 
 Jeromy Johnson
-Chair, WSU ACM
+WSU ACM Chair
 me@jero.my
 http://jero.my
 
@@ -17,3 +17,38 @@ http://jero.my
 * What does Go look like?
 
 .play first.go
+
+Go has very strict syntax:
+- It requires 'Eqyptian' style brackets.
+- All functions start with the 'func' keyword
+- No semicolons! (kinda)
+- Unused variables are errors
+
+* Variables
+
+.play second.go
+
+- Variable names come before types
+- Functions can return multiple values
+- No parentheses needed on flow control statements
+
+* Wheres the magic??
+Right here.
+
+.play concur.go
+
+Concurrency!
+
+* Another Approach...
+Channels are awesome.
+
+.play channel.go
+
+* In Closing...
+To learn more, check out:
+
+.link http://golang.org golang.org
+
+To try things out yourself:
+
+.link http://play.golang.org The Go Playground
