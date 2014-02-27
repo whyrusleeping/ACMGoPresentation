@@ -3,16 +3,16 @@ import "fmt"
 
 type Animal interface { Speak() }
 
-type Dog struct {}
-func (d *Dog) Speak() { fmt.Println("Woof Woof!") }
+type Cougar struct {}
+func (c *Cougar) Speak() {fmt.Println("Go Cougs!") }
 
-type Cat struct {}
-func (c *Cat) Speak() {fmt.Println("Meaaoow!") }
+type Husky struct {}
+func (d *Husky) Speak() { fmt.Println("Huskies Suck!") }
 
 func main() {
 	var a Animal
-	a = new(Dog)
+	a = new(Cougar)
 	a.Speak()
-	a = new(Cat)
+	a = new(Husky)
 	a.Speak()
 }
